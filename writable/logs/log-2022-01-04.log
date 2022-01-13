@@ -1,0 +1,140 @@
+CRITICAL - 2022-01-04 05:54:10 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\e-arsip-ci4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-04 01:29:17 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:33:27 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:33:29 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:33:30 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:33:30 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:38:17 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:38:18 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:38:19 --> Invalid file: layout/v_login.php
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_login....')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('layout/v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 01:54:20 --> syntax error, unexpected 'url' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('v_login', Array)
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 02:07:29 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#3 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('v_login', Array)
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-04 22:43:23 --> Undefined variable: empty
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\v_login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(17): view('v_login', Array)
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 22:58:27 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 22:59:02 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 22:59:32 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 23:40:11 --> Undefined variable: empty
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\v_login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(17): view('v_login', Array)
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

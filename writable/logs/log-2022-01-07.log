@@ -1,0 +1,76 @@
+CRITICAL - 2022-01-07 02:22:31 --> Class 'App\Models\Model_kategori' not found
+#0 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(802): App\Controllers\Kategori->__construct()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 02:23:21 --> Class 'App\Models\Model_kategori' not found
+#0 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(802): App\Controllers\Kategori->__construct()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 02:23:45 --> Class 'App\Models\Model_kategori' not found
+#0 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(802): App\Controllers\Kategori->__construct()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 02:24:36 --> Class 'App\Models\Model_kategori' not found
+#0 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(802): App\Controllers\Kategori->__construct()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 21:47:41 --> Undefined variable: useri
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\user\v_index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('user/v_index', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Views\layout\v_content.php(3): view('user/v_index')
+#5 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\e-arsip-ci4\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#12 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\User.php(21): view('layout/v_wrappe...', Array)
+#13 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\User->index()
+#14 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#15 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-07 21:49:15 --> Undefined variable: useri
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\user\v_index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('user/v_index', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Views\layout\v_content.php(3): view('user/v_index')
+#5 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\e-arsip-ci4\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#12 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\User.php(21): view('layout/v_wrappe...', Array)
+#13 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\User->index()
+#14 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#15 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-07 23:13:45 --> Undefined property: App\Controllers\User::$Model_dep
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\User->add()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 23:15:13 --> Undefined property: App\Controllers\User::$Model_dep
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\User->add()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

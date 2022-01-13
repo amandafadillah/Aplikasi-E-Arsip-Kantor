@@ -1,0 +1,98 @@
+CRITICAL - 2022-01-05 00:17:01 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#3 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(12): view('v_login', Array)
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 00:19:22 --> Use of undefined constant form_close - assumed 'form_close' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\v_login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(17): view('v_login', Array)
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-05 00:20:32 --> Use of undefined constant form_close - assumed 'form_close' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\e-arsip-ci4\app\Views\v_login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('v_login', Array, true)
+#4 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(17): view('v_login', Array)
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->index()
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-05 01:56:17 --> Error connecting to the database: Unknown database 'e-arsip-ci4'
+CRITICAL - 2022-01-05 01:56:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'e-arsip-ci4'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Models\Model_auth.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(44): App\Models\Model_auth->login('amandafadillah2...', '1234')
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-05 01:57:54 --> Error connecting to the database: Unknown database 'e-arsip-ci4'
+CRITICAL - 2022-01-05 01:57:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'e-arsip-ci4'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Models\Model_auth.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(44): App\Models\Model_auth->login('amandafadillah2...', '1234')
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-05 02:03:06 --> Error connecting to the database: Unknown database 'e-arsip-ci4'
+CRITICAL - 2022-01-05 02:03:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'e-arsip-ci4'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Models\Model_auth.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Auth.php(44): App\Models\Model_auth->login('amandafadillah2...', '1234')
+#4 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-05 03:12:34 --> syntax error, unexpected ''toolbar'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\e-arsip-ci4\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\e-arsip-ci4\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\e-arsip-ci4\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\e-arsip-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\e-arsip-ci4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\e-arsip-ci4\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\e-arsip-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(366): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-01-05 04:50:45 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_nav', Array, true)
+#2 C:\xampp\htdocs\e-arsip-ci4\app\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+#3 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\e-arsip-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\e-arsip-ci4\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-arsip-ci4\app\Controllers\Home.php(13): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\e-arsip-ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-arsip-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
